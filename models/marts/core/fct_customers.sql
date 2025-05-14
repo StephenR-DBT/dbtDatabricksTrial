@@ -1,5 +1,5 @@
 with customers as (
-    select 
+    select *
      from {{ ref('stg_retail_customers') }}
 )
 
